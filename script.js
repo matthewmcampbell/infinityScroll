@@ -1,4 +1,4 @@
-import { secrets } from "./secrets.js"
+// import { secrets } from "./secrets.js"
 
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
