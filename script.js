@@ -9,7 +9,7 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplash API
-const count = 30;
+let count = 5;
 // const apiKey = secrets["apiKey"];
 const apiKey = "h4VA-POYmg5AVp4hnRjw9hbwOUyRd06_DF2AIjVXmJo"; // If I was hosting somewhere besides GitHub pages, I'd leave this as a secret...
 const content_filter = 'high';
@@ -36,6 +36,7 @@ function imageLoaded() {
     if (imagesLoaded === totalImages) {
         loader.hidden = true;
         ready = true;
+        count = 30;
     }
 }
 
