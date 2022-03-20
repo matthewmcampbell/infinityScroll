@@ -9,7 +9,7 @@ let totalImages = 0;
 let photosArray = [];
 
 // Unsplash API
-let count = 5;
+let count = 10;
 // const apiKey = secrets["apiKey"];
 const apiKey = "h4VA-POYmg5AVp4hnRjw9hbwOUyRd06_DF2AIjVXmJo"; // If I was hosting somewhere besides GitHub pages, I'd leave this as a secret...
 const content_filter = 'high';
